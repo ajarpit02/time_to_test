@@ -4,6 +4,9 @@ def reverse_string(text):
 def count_words(text):
     return len(text.split())
 
+def sum(a,b):
+    return a+b
+
 def is_palindrome(text):
     cleaned = text.replace(" ", "").lower()
     return cleaned == cleaned[::-1]
